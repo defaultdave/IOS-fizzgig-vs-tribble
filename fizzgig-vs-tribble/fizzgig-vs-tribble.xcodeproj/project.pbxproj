@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69D079351D7363D500F16690 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D079341D7363D500F16690 /* AppDelegate.swift */; };
+		69D079371D7363D500F16690 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D079361D7363D500F16690 /* ViewController.swift */; };
+		69D0793A1D7363D500F16690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D079381D7363D500F16690 /* Main.storyboard */; };
+		69D0793C1D7363D500F16690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D0793B1D7363D500F16690 /* Assets.xcassets */; };
+		69D0793F1D7363D500F16690 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D0793D1D7363D500F16690 /* LaunchScreen.storyboard */; };
+		69D0794A1D7363D500F16690 /* fizzgig_vs_tribbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D079491D7363D500F16690 /* fizzgig_vs_tribbleTests.swift */; };
+		69D079551D73645B00F16690 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D079541D73645B00F16690 /* GameScene.swift */; };
+		69D079581D7364B600F16690 /* ballSpark.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69D079561D7364B600F16690 /* ballSpark.sks */; };
+		69D079591D7364B600F16690 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079571D7364B600F16690 /* spark.png */; };
+		69D0795B1D7364EF00F16690 /* ballSmoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69D0795A1D7364EF00F16690 /* ballSmoke.sks */; };
+		69D0795F1D737CE900F16690 /* fizzgig-bark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69D0795E1D737CE900F16690 /* fizzgig-bark.mp3 */; };
+		69D079611D737CF300F16690 /* fizzgig-scream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69D079601D737CF300F16690 /* fizzgig-scream.mp3 */; };
+		69D079631D737DE600F16690 /* tribble-purr.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69D079621D737DE600F16690 /* tribble-purr.mp3 */; };
+		69D079651D73800400F16690 /* 06 Searching.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69D079641D73800400F16690 /* 06 Searching.mp3 */; };
+		69D079CA1D73855500F16690 /* city-background-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079AA1D73855500F16690 /* city-background-1.png */; };
+		69D079CB1D73855500F16690 /* city-background-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079AB1D73855500F16690 /* city-background-10.png */; };
+		69D079CC1D73855500F16690 /* city-background-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079AC1D73855500F16690 /* city-background-11.png */; };
+		69D079CD1D73855500F16690 /* city-background-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079AD1D73855500F16690 /* city-background-12.png */; };
+		69D079CE1D73855500F16690 /* city-background-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079AE1D73855500F16690 /* city-background-13.png */; };
+		69D079CF1D73855500F16690 /* city-background-14.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079AF1D73855500F16690 /* city-background-14.png */; };
+		69D079D01D73855500F16690 /* city-background-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079B01D73855500F16690 /* city-background-15.png */; };
+		69D079D11D73855500F16690 /* city-background-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079B11D73855500F16690 /* city-background-16.png */; };
+		69D079D21D73855500F16690 /* city-background-17.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079B21D73855500F16690 /* city-background-17.png */; };
+		69D079D31D73855500F16690 /* city-background-18.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079B31D73855500F16690 /* city-background-18.png */; };
+		69D079D41D73855500F16690 /* city-background-19.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079B41D73855500F16690 /* city-background-19.png */; };
+		69D079D51D73855500F16690 /* city-background-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079B51D73855500F16690 /* city-background-2.png */; };
+		69D079D61D73855500F16690 /* city-background-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079B61D73855500F16690 /* city-background-20.png */; };
+		69D079D71D73855500F16690 /* city-background-21.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079B71D73855500F16690 /* city-background-21.png */; };
+		69D079D81D73855500F16690 /* city-background-22.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079B81D73855500F16690 /* city-background-22.png */; };
+		69D079D91D73855500F16690 /* city-background-23.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079B91D73855500F16690 /* city-background-23.png */; };
+		69D079DA1D73855500F16690 /* city-background-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079BA1D73855500F16690 /* city-background-24.png */; };
+		69D079DB1D73855500F16690 /* city-background-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079BB1D73855500F16690 /* city-background-25.png */; };
+		69D079DC1D73855500F16690 /* city-background-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079BC1D73855500F16690 /* city-background-26.png */; };
+		69D079DD1D73855500F16690 /* city-background-27.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079BD1D73855500F16690 /* city-background-27.png */; };
+		69D079DE1D73855500F16690 /* city-background-28.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079BE1D73855500F16690 /* city-background-28.png */; };
+		69D079DF1D73855500F16690 /* city-background-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079BF1D73855500F16690 /* city-background-29.png */; };
+		69D079E01D73855500F16690 /* city-background-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079C01D73855500F16690 /* city-background-3.png */; };
+		69D079E11D73855500F16690 /* city-background-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079C11D73855500F16690 /* city-background-30.png */; };
+		69D079E21D73855500F16690 /* city-background-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079C21D73855500F16690 /* city-background-32.png */; };
+		69D079E31D73855500F16690 /* city-background-31.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079C31D73855500F16690 /* city-background-31.png */; };
+		69D079E41D73855500F16690 /* city-background-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079C41D73855500F16690 /* city-background-4.png */; };
+		69D079E51D73855500F16690 /* city-background-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079C51D73855500F16690 /* city-background-5.png */; };
+		69D079E61D73855500F16690 /* city-background-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079C61D73855500F16690 /* city-background-6.png */; };
+		69D079E71D73855500F16690 /* city-background-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079C71D73855500F16690 /* city-background-7.png */; };
+		69D079E81D73855500F16690 /* city-background-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079C81D73855500F16690 /* city-background-8.png */; };
+		69D079E91D73855500F16690 /* city-background-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D079C91D73855500F16690 /* city-background-9.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69D079461D7363D500F16690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69D079291D7363D500F16690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69D079301D7363D500F16690;
+			remoteInfo = "fizzgig-vs-tribble";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69D079311D7363D500F16690 /* fizzgig-vs-tribble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fizzgig-vs-tribble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D079341D7363D500F16690 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69D079361D7363D500F16690 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69D079391D7363D500F16690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69D0793B1D7363D500F16690 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69D0793E1D7363D500F16690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69D079401D7363D500F16690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D079451D7363D500F16690 /* fizzgig-vs-tribbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fizzgig-vs-tribbleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D079491D7363D500F16690 /* fizzgig_vs_tribbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fizzgig_vs_tribbleTests.swift; sourceTree = "<group>"; };
+		69D0794B1D7363D500F16690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D079541D73645B00F16690 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		69D079561D7364B600F16690 /* ballSpark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = ballSpark.sks; path = particles/ballSpark.sks; sourceTree = "<group>"; };
+		69D079571D7364B600F16690 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = particles/spark.png; sourceTree = "<group>"; };
+		69D0795A1D7364EF00F16690 /* ballSmoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = ballSmoke.sks; path = particles/ballSmoke.sks; sourceTree = "<group>"; };
+		69D0795E1D737CE900F16690 /* fizzgig-bark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "fizzgig-bark.mp3"; sourceTree = "<group>"; };
+		69D079601D737CF300F16690 /* fizzgig-scream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "fizzgig-scream.mp3"; sourceTree = "<group>"; };
+		69D079621D737DE600F16690 /* tribble-purr.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tribble-purr.mp3"; sourceTree = "<group>"; };
+		69D079641D73800400F16690 /* 06 Searching.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06 Searching.mp3"; sourceTree = "<group>"; };
+		69D079AA1D73855500F16690 /* city-background-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-1.png"; sourceTree = "<group>"; };
+		69D079AB1D73855500F16690 /* city-background-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-10.png"; sourceTree = "<group>"; };
+		69D079AC1D73855500F16690 /* city-background-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-11.png"; sourceTree = "<group>"; };
+		69D079AD1D73855500F16690 /* city-background-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-12.png"; sourceTree = "<group>"; };
+		69D079AE1D73855500F16690 /* city-background-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-13.png"; sourceTree = "<group>"; };
+		69D079AF1D73855500F16690 /* city-background-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-14.png"; sourceTree = "<group>"; };
+		69D079B01D73855500F16690 /* city-background-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-15.png"; sourceTree = "<group>"; };
+		69D079B11D73855500F16690 /* city-background-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-16.png"; sourceTree = "<group>"; };
+		69D079B21D73855500F16690 /* city-background-17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-17.png"; sourceTree = "<group>"; };
+		69D079B31D73855500F16690 /* city-background-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-18.png"; sourceTree = "<group>"; };
+		69D079B41D73855500F16690 /* city-background-19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-19.png"; sourceTree = "<group>"; };
+		69D079B51D73855500F16690 /* city-background-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-2.png"; sourceTree = "<group>"; };
+		69D079B61D73855500F16690 /* city-background-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-20.png"; sourceTree = "<group>"; };
+		69D079B71D73855500F16690 /* city-background-21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-21.png"; sourceTree = "<group>"; };
+		69D079B81D73855500F16690 /* city-background-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-22.png"; sourceTree = "<group>"; };
+		69D079B91D73855500F16690 /* city-background-23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-23.png"; sourceTree = "<group>"; };
+		69D079BA1D73855500F16690 /* city-background-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-24.png"; sourceTree = "<group>"; };
+		69D079BB1D73855500F16690 /* city-background-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-25.png"; sourceTree = "<group>"; };
+		69D079BC1D73855500F16690 /* city-background-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-26.png"; sourceTree = "<group>"; };
+		69D079BD1D73855500F16690 /* city-background-27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-27.png"; sourceTree = "<group>"; };
+		69D079BE1D73855500F16690 /* city-background-28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-28.png"; sourceTree = "<group>"; };
+		69D079BF1D73855500F16690 /* city-background-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-29.png"; sourceTree = "<group>"; };
+		69D079C01D73855500F16690 /* city-background-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-3.png"; sourceTree = "<group>"; };
+		69D079C11D73855500F16690 /* city-background-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-30.png"; sourceTree = "<group>"; };
+		69D079C21D73855500F16690 /* city-background-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-32.png"; sourceTree = "<group>"; };
+		69D079C31D73855500F16690 /* city-background-31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-31.png"; sourceTree = "<group>"; };
+		69D079C41D73855500F16690 /* city-background-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-4.png"; sourceTree = "<group>"; };
+		69D079C51D73855500F16690 /* city-background-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-5.png"; sourceTree = "<group>"; };
+		69D079C61D73855500F16690 /* city-background-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-6.png"; sourceTree = "<group>"; };
+		69D079C71D73855500F16690 /* city-background-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-7.png"; sourceTree = "<group>"; };
+		69D079C81D73855500F16690 /* city-background-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-8.png"; sourceTree = "<group>"; };
+		69D079C91D73855500F16690 /* city-background-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-background-9.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69D0792E1D7363D500F16690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D079421D7363D500F16690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69D079281D7363D500F16690 = {
+			isa = PBXGroup;
+			children = (
+				69D079331D7363D500F16690 /* fizzgig-vs-tribble */,
+				69D079481D7363D500F16690 /* fizzgig-vs-tribbleTests */,
+				69D079321D7363D500F16690 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69D079321D7363D500F16690 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69D079311D7363D500F16690 /* fizzgig-vs-tribble.app */,
+				69D079451D7363D500F16690 /* fizzgig-vs-tribbleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69D079331D7363D500F16690 /* fizzgig-vs-tribble */ = {
+			isa = PBXGroup;
+			children = (
+				69D0795D1D737CA400F16690 /* sound */,
+				69D0795C1D7364F600F16690 /* Particles */,
+				69D079341D7363D500F16690 /* AppDelegate.swift */,
+				69D079361D7363D500F16690 /* ViewController.swift */,
+				69D079541D73645B00F16690 /* GameScene.swift */,
+				69D079381D7363D500F16690 /* Main.storyboard */,
+				69D0793B1D7363D500F16690 /* Assets.xcassets */,
+				69D0793D1D7363D500F16690 /* LaunchScreen.storyboard */,
+				69D079401D7363D500F16690 /* Info.plist */,
+			);
+			path = "fizzgig-vs-tribble";
+			sourceTree = "<group>";
+		};
+		69D079481D7363D500F16690 /* fizzgig-vs-tribbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				69D079491D7363D500F16690 /* fizzgig_vs_tribbleTests.swift */,
+				69D0794B1D7363D500F16690 /* Info.plist */,
+			);
+			path = "fizzgig-vs-tribbleTests";
+			sourceTree = "<group>";
+		};
+		69D0795C1D7364F600F16690 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				69D079561D7364B600F16690 /* ballSpark.sks */,
+				69D079571D7364B600F16690 /* spark.png */,
+				69D0795A1D7364EF00F16690 /* ballSmoke.sks */,
+			);
+			name = Particles;
+			sourceTree = "<group>";
+		};
+		69D0795D1D737CA400F16690 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				69D079601D737CF300F16690 /* fizzgig-scream.mp3 */,
+				69D079641D73800400F16690 /* 06 Searching.mp3 */,
+				69D079A91D73855500F16690 /* background */,
+				69D079621D737DE600F16690 /* tribble-purr.mp3 */,
+				69D0795E1D737CE900F16690 /* fizzgig-bark.mp3 */,
+			);
+			name = sound;
+			sourceTree = "<group>";
+		};
+		69D079A91D73855500F16690 /* background */ = {
+			isa = PBXGroup;
+			children = (
+				69D079AA1D73855500F16690 /* city-background-1.png */,
+				69D079AB1D73855500F16690 /* city-background-10.png */,
+				69D079AC1D73855500F16690 /* city-background-11.png */,
+				69D079AD1D73855500F16690 /* city-background-12.png */,
+				69D079AE1D73855500F16690 /* city-background-13.png */,
+				69D079AF1D73855500F16690 /* city-background-14.png */,
+				69D079B01D73855500F16690 /* city-background-15.png */,
+				69D079B11D73855500F16690 /* city-background-16.png */,
+				69D079B21D73855500F16690 /* city-background-17.png */,
+				69D079B31D73855500F16690 /* city-background-18.png */,
+				69D079B41D73855500F16690 /* city-background-19.png */,
+				69D079B51D73855500F16690 /* city-background-2.png */,
+				69D079B61D73855500F16690 /* city-background-20.png */,
+				69D079B71D73855500F16690 /* city-background-21.png */,
+				69D079B81D73855500F16690 /* city-background-22.png */,
+				69D079B91D73855500F16690 /* city-background-23.png */,
+				69D079BA1D73855500F16690 /* city-background-24.png */,
+				69D079BB1D73855500F16690 /* city-background-25.png */,
+				69D079BC1D73855500F16690 /* city-background-26.png */,
+				69D079BD1D73855500F16690 /* city-background-27.png */,
+				69D079BE1D73855500F16690 /* city-background-28.png */,
+				69D079BF1D73855500F16690 /* city-background-29.png */,
+				69D079C01D73855500F16690 /* city-background-3.png */,
+				69D079C11D73855500F16690 /* city-background-30.png */,
+				69D079C21D73855500F16690 /* city-background-32.png */,
+				69D079C31D73855500F16690 /* city-background-31.png */,
+				69D079C41D73855500F16690 /* city-background-4.png */,
+				69D079C51D73855500F16690 /* city-background-5.png */,
+				69D079C61D73855500F16690 /* city-background-6.png */,
+				69D079C71D73855500F16690 /* city-background-7.png */,
+				69D079C81D73855500F16690 /* city-background-8.png */,
+				69D079C91D73855500F16690 /* city-background-9.png */,
+			);
+			path = background;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69D079301D7363D500F16690 /* fizzgig-vs-tribble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D0794E1D7363D500F16690 /* Build configuration list for PBXNativeTarget "fizzgig-vs-tribble" */;
+			buildPhases = (
+				69D0792D1D7363D500F16690 /* Sources */,
+				69D0792E1D7363D500F16690 /* Frameworks */,
+				69D0792F1D7363D500F16690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fizzgig-vs-tribble";
+			productName = "fizzgig-vs-tribble";
+			productReference = 69D079311D7363D500F16690 /* fizzgig-vs-tribble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69D079441D7363D500F16690 /* fizzgig-vs-tribbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D079511D7363D500F16690 /* Build configuration list for PBXNativeTarget "fizzgig-vs-tribbleTests" */;
+			buildPhases = (
+				69D079411D7363D500F16690 /* Sources */,
+				69D079421D7363D500F16690 /* Frameworks */,
+				69D079431D7363D500F16690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69D079471D7363D500F16690 /* PBXTargetDependency */,
+			);
+			name = "fizzgig-vs-tribbleTests";
+			productName = "fizzgig-vs-tribbleTests";
+			productReference = 69D079451D7363D500F16690 /* fizzgig-vs-tribbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69D079291D7363D500F16690 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = defaultdave;
+				TargetAttributes = {
+					69D079301D7363D500F16690 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					69D079441D7363D500F16690 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 69D079301D7363D500F16690;
+					};
+				};
+			};
+			buildConfigurationList = 69D0792C1D7363D500F16690 /* Build configuration list for PBXProject "fizzgig-vs-tribble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69D079281D7363D500F16690;
+			productRefGroup = 69D079321D7363D500F16690 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69D079301D7363D500F16690 /* fizzgig-vs-tribble */,
+				69D079441D7363D500F16690 /* fizzgig-vs-tribbleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69D0792F1D7363D500F16690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D079651D73800400F16690 /* 06 Searching.mp3 in Resources */,
+				69D079E11D73855500F16690 /* city-background-30.png in Resources */,
+				69D079CF1D73855500F16690 /* city-background-14.png in Resources */,
+				69D079CD1D73855500F16690 /* city-background-12.png in Resources */,
+				69D079DE1D73855500F16690 /* city-background-28.png in Resources */,
+				69D079E01D73855500F16690 /* city-background-3.png in Resources */,
+				69D079E81D73855500F16690 /* city-background-8.png in Resources */,
+				69D079CE1D73855500F16690 /* city-background-13.png in Resources */,
+				69D079DC1D73855500F16690 /* city-background-26.png in Resources */,
+				69D079E51D73855500F16690 /* city-background-5.png in Resources */,
+				69D079D01D73855500F16690 /* city-background-15.png in Resources */,
+				69D079E61D73855500F16690 /* city-background-6.png in Resources */,
+				69D079DF1D73855500F16690 /* city-background-29.png in Resources */,
+				69D0795B1D7364EF00F16690 /* ballSmoke.sks in Resources */,
+				69D079591D7364B600F16690 /* spark.png in Resources */,
+				69D079DB1D73855500F16690 /* city-background-25.png in Resources */,
+				69D079D81D73855500F16690 /* city-background-22.png in Resources */,
+				69D079611D737CF300F16690 /* fizzgig-scream.mp3 in Resources */,
+				69D079D41D73855500F16690 /* city-background-19.png in Resources */,
+				69D079D21D73855500F16690 /* city-background-17.png in Resources */,
+				69D0795F1D737CE900F16690 /* fizzgig-bark.mp3 in Resources */,
+				69D079CB1D73855500F16690 /* city-background-10.png in Resources */,
+				69D079E91D73855500F16690 /* city-background-9.png in Resources */,
+				69D079E41D73855500F16690 /* city-background-4.png in Resources */,
+				69D079D91D73855500F16690 /* city-background-23.png in Resources */,
+				69D079581D7364B600F16690 /* ballSpark.sks in Resources */,
+				69D079DD1D73855500F16690 /* city-background-27.png in Resources */,
+				69D079D61D73855500F16690 /* city-background-20.png in Resources */,
+				69D079E71D73855500F16690 /* city-background-7.png in Resources */,
+				69D079CC1D73855500F16690 /* city-background-11.png in Resources */,
+				69D0793F1D7363D500F16690 /* LaunchScreen.storyboard in Resources */,
+				69D0793C1D7363D500F16690 /* Assets.xcassets in Resources */,
+				69D079CA1D73855500F16690 /* city-background-1.png in Resources */,
+				69D079E21D73855500F16690 /* city-background-32.png in Resources */,
+				69D079D51D73855500F16690 /* city-background-2.png in Resources */,
+				69D079E31D73855500F16690 /* city-background-31.png in Resources */,
+				69D0793A1D7363D500F16690 /* Main.storyboard in Resources */,
+				69D079D31D73855500F16690 /* city-background-18.png in Resources */,
+				69D079DA1D73855500F16690 /* city-background-24.png in Resources */,
+				69D079631D737DE600F16690 /* tribble-purr.mp3 in Resources */,
+				69D079D11D73855500F16690 /* city-background-16.png in Resources */,
+				69D079D71D73855500F16690 /* city-background-21.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D079431D7363D500F16690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69D0792D1D7363D500F16690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D079551D73645B00F16690 /* GameScene.swift in Sources */,
+				69D079371D7363D500F16690 /* ViewController.swift in Sources */,
+				69D079351D7363D500F16690 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D079411D7363D500F16690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D0794A1D7363D500F16690 /* fizzgig_vs_tribbleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69D079471D7363D500F16690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69D079301D7363D500F16690 /* fizzgig-vs-tribble */;
+			targetProxy = 69D079461D7363D500F16690 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69D079381D7363D500F16690 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69D079391D7363D500F16690 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69D0793D1D7363D500F16690 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69D0793E1D7363D500F16690 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69D0794C1D7363D500F16690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69D0794D1D7363D500F16690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69D0794F1D7363D500F16690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "fizzgig-vs-tribble/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.defaultdave.fizzgig-vs-tribble";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69D079501D7363D500F16690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "fizzgig-vs-tribble/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.defaultdave.fizzgig-vs-tribble";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69D079521D7363D500F16690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "fizzgig-vs-tribbleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.defaultdave.fizzgig-vs-tribbleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fizzgig-vs-tribble.app/fizzgig-vs-tribble";
+			};
+			name = Debug;
+		};
+		69D079531D7363D500F16690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "fizzgig-vs-tribbleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.defaultdave.fizzgig-vs-tribbleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fizzgig-vs-tribble.app/fizzgig-vs-tribble";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69D0792C1D7363D500F16690 /* Build configuration list for PBXProject "fizzgig-vs-tribble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D0794C1D7363D500F16690 /* Debug */,
+				69D0794D1D7363D500F16690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69D0794E1D7363D500F16690 /* Build configuration list for PBXNativeTarget "fizzgig-vs-tribble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D0794F1D7363D500F16690 /* Debug */,
+				69D079501D7363D500F16690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69D079511D7363D500F16690 /* Build configuration list for PBXNativeTarget "fizzgig-vs-tribbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D079521D7363D500F16690 /* Debug */,
+				69D079531D7363D500F16690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69D079291D7363D500F16690 /* Project object */;
+}
